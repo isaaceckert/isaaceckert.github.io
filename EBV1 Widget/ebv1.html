@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<style>body{background-color:white;}</style>
+<script src="ebv1_files/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<link href="ebv1_files/maplibre-gl-5.6.0/maplibre-gl.css" rel="stylesheet" />
+<script src="ebv1_files/maplibre-gl-5.6.0/maplibre-gl.js"></script>
+<link href="ebv1_files/mapbox-gl-draw-1.5.0/mapbox-gl-draw.css" rel="stylesheet" />
+<script src="ebv1_files/mapbox-gl-draw-1.5.0/mapbox-gl-draw.js"></script>
+<script src="ebv1_files/freehand-mode-1.0.0/freehand-mode.js"></script>
+<link href="ebv1_files/maplibre-gl-geocoder-1.5.0/maplibre-gl-geocoder.css" rel="stylesheet" />
+<script src="ebv1_files/maplibre-gl-geocoder-1.5.0/maplibre-gl-geocoder.min.js"></script>
+<script src="ebv1_files/mapbox-gl-globe-minimap-1.2.1/bundle.js"></script>
+<script src="ebv1_files/pmtiles-4.3.0/pmtiles.js"></script>
+<script src="ebv1_files/h3j-h3t-0.9.2/h3j_h3t.js"></script>
+<script src="ebv1_files/maplibregl-binding-0.3/maplibregl.js"></script>
+<link href="ebv1_files/layers-control-1.0.0/layers-control.css" rel="stylesheet" />
+  <title>Genetic Diversity</title>
+</head>
+<body>
+<div id="htmlwidget_container">
+  <div id="htmlwidget-80303e427e3372bbfb40" style="width:100%;height:500px;" class="maplibregl html-widget"></div>
+</div>
+<script type="application/json" data-for="htmlwidget-80303e427e3372bbfb40">{"x":{"style":"https://basemaps.cartocdn.com/gl/positron-gl-style/style.json","center":[5,15],"zoom":1.8,"bearing":0,"pitch":0,"additional_params":[],"setProjection":[{"projection":"globe"}],"layers":[{"id":"All","type":"circle","source":{"type":"vector","url":"pmtiles://https://github.com/isaaceckert/isaaceckert.github.io/blob/main/output.pmtiles"},"source_layer":null,"paint":{"circle-color":["match",["get","Occurrence.Status"],"Native","#447352","Introduced","#EB7131","Extinct","#BE2533","#447352","#EB7131","#BE2533"],"circle-opacity":0.7,"circle-translate-anchor":"map"},"layout":{"visibility":"visible"},"slot":null,"minzoom":null,"maxzoom":null,"popup":"popup","tooltip":"Species","hover_options":{"circle_radius":12,"circle_opacity":1},"before_id":null,"filter":null}],"legend_html":"<div id=\"legend-7c6cb\" class=\"mapboxgl-legend top-left\"><h2>Occurrence Status<\/h2><div class=\"legend-item\"><div class=\"legend-patch-container\" style=\"width:20px; height:20px;\"><span class=\"legend-color\" style=\"background-color:#447352;border-radius: 50%;width: 20px; height: 20px;\"><\/span><\/div><span class=\"legend-text\">Native<\/span><\/div><div class=\"legend-item\"><div class=\"legend-patch-container\" style=\"width:20px; height:20px;\"><span class=\"legend-color\" style=\"background-color:#EB7131;border-radius: 50%;width: 20px; height: 20px;\"><\/span><\/div><span class=\"legend-text\">Introduced<\/span><\/div><div class=\"legend-item\"><div class=\"legend-patch-container\" style=\"width:20px; height:20px;\"><span class=\"legend-color\" style=\"background-color:#BE2533;border-radius: 50%;width: 20px; height: 20px;\"><\/span><\/div><span class=\"legend-text\">Extinct<\/span><\/div><\/div>","legend_css":"\n    @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');\n    #legend-7c6cb h2 {\n      font-size: 14px;\n      font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;\n      line-height: 20px;\n      margin-bottom: 10px;\n      margin-top: 0px;\n      white-space: nowrap;\n      max-width: 100%;\n      overflow: hidden;\n      text-overflow: ellipsis;\n    }\n    #legend-7c6cb {\n      position: absolute;\n      border-radius: 10px;\n      margin: 10px;\n      max-width: 250px;\n      background-color: #ffffff80;\n      padding: 10px 20px;\n      z-index: 1002;\n    }\n    #legend-7c6cb.top-left {\n      top: 10px;\n      left: 10px;\n    }\n    #legend-7c6cb.bottom-left {\n      bottom: 10px;\n      left: 10px;\n    }\n    #legend-7c6cb.top-right {\n      top: 10px;\n      right: 10px;\n    }\n    #legend-7c6cb.bottom-right {\n      bottom: 10px;\n      right: 10px;\n    }\n    #legend-7c6cb .legend-item {\n      display: flex;\n      align-items: center;\n      margin-bottom: 5px;\n      font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;\n      white-space: nowrap;\n      max-width: 100%;\n      overflow: hidden;\n    }\n    #legend-7c6cb .legend-patch-container {\n      display: flex;\n      justify-content: center;\n      align-items: center;\n      margin-right: 5px;\n    }\n    #legend-7c6cb .legend-color {\n      display: inline-block;\n      flex-shrink: 0;\n    }\n    #legend-7c6cb .legend-text {\n      flex-grow: 1;\n      text-overflow: ellipsis;\n      overflow: hidden;\n    }\n  ","globe_control":{"position":"top-right"},"fullscreen_control":{"enabled":true,"position":"bottom-left"}},"evals":[],"jsHooks":[]}</script>
+<script type="application/htmlwidget-sizing" data-for="htmlwidget-80303e427e3372bbfb40">{"viewer":{"width":"100%","height":"100vh","padding":0,"fill":false},"browser":{"width":"100%","height":"100vh","padding":0,"fill":false}}</script>
+</body>
+</html>
